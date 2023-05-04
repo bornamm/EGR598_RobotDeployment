@@ -1,4 +1,3 @@
----
 title: EGR 598: Robot deployment object detection and tracking using Turtlebot4
 ---
 
