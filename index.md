@@ -1,7 +1,4 @@
-title: EGR 598: Robot deployment object detection and tracking using Turtlebot4
----
-
-# Home
+# EGR 598: Robot deployment object detection and tracking using Turtlebot4
 
 ## Introduction
 
@@ -14,7 +11,8 @@ title: EGR 598: Robot deployment object detection and tracking using Turtlebot4
 ![image caption](/Ganttchart.jpg)
 * [Elevator Pitch](/elevator_pitch_take_1.mp4)
 
-## Additional Files
+## Files
+* [Report](/FinalReportTeam03.html)
 * [Data](https://app.roboflow.com/robdep/robdep_project/deploy/2)
 * [YOLOv5 Training](YOLOv5_Custom_Training.ipynb)
 * [ROS package](/ROSPackage.zip)
