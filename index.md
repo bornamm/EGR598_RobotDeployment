@@ -13,9 +13,11 @@
 
 ## Files
 * [Report](/FinalReportTeam03.html)
+* [Download PDF Report](/Final Report - Team 03.pdf)
 * [Data](https://app.roboflow.com/robdep/robdep_project/deploy/2)
-* [YOLOv5 Training](YOLOv5_Custom_Training.ipynb)
-* [ROS package](/ROSPackage.zip)
+* [YOLOv5 Training](/YOLOv5_Custom_Training.html)
+* [Download YOLOv5 Training Notebook](/YOLOv5_Custom_Training.ipynb)
+* [Download ROS package](/ROSPackage.zip)
 
 ## Project Objective
 
