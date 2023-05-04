@@ -1,0 +1,302 @@
+[0.000000] (-) TimerEvent: {}
+[0.000952] (robdep_interfaces) JobQueued: {'identifier': 'robdep_interfaces', 'dependencies': OrderedDict()}
+[0.001224] (robdep_project) JobQueued: {'identifier': 'robdep_project', 'dependencies': OrderedDict()}
+[0.002075] (robdep_project_interfaces) JobQueued: {'identifier': 'robdep_project_interfaces', 'dependencies': OrderedDict()}
+[0.002808] (robdep) JobQueued: {'identifier': 'robdep', 'dependencies': OrderedDict([('robdep_interfaces', '/home/ubuntu/ros2_ws/install/robdep_interfaces')])}
+[0.004211] (robdep_interfaces) JobStarted: {'identifier': 'robdep_interfaces'}
+[0.055572] (robdep_project) JobStarted: {'identifier': 'robdep_project'}
+[0.099125] (-) TimerEvent: {}
+[0.111725] (robdep_project_interfaces) JobStarted: {'identifier': 'robdep_project_interfaces'}
+[0.165829] (robdep_interfaces) JobProgress: {'identifier': 'robdep_interfaces', 'progress': 'cmake'}
+[0.168951] (robdep_interfaces) JobProgress: {'identifier': 'robdep_interfaces', 'progress': 'build'}
+[0.171905] (robdep_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/robdep_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/robdep_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.200 52278 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/robdep_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('CYCLONEDDS_URI', '/etc/cyclonedds_rpi.xml'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/home/ubuntu/ros2_ws/install/robdep_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/robdep_interfaces'), ('SSH_CONNECTION', '192.168.0.200 52278 192.168.0.49 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('COUNTRY', 'CA'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/opt/ros/galactic')]), 'shell': False}
+[0.199519] (-) TimerEvent: {}
+[0.301128] (-) TimerEvent: {}
+[0.402817] (-) TimerEvent: {}
+[0.504621] (-) TimerEvent: {}
+[0.605448] (-) TimerEvent: {}
+[0.706269] (-) TimerEvent: {}
+[0.807377] (-) TimerEvent: {}
+[0.908201] (-) TimerEvent: {}
+[1.008980] (-) TimerEvent: {}
+[1.110172] (-) TimerEvent: {}
+[1.210906] (-) TimerEvent: {}
+[1.312228] (-) TimerEvent: {}
+[1.412902] (-) TimerEvent: {}
+[1.513597] (-) TimerEvent: {}
+[1.614432] (-) TimerEvent: {}
+[1.702776] (robdep_interfaces) StdoutLine: {'line': b'[  2%] Built target robdep_interfaces__cpp\n'}
+[1.704566] (robdep_interfaces) StdoutLine: {'line': b'[ 12%] Built target robdep_interfaces__rosidl_generator_c\n'}
+[1.705945] (robdep_interfaces) StdoutLine: {'line': b'[ 23%] Built target robdep_interfaces__rosidl_typesupport_cpp\n'}
+[1.706939] (robdep_interfaces) StdoutLine: {'line': b'[ 33%] Built target robdep_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.708377] (robdep_interfaces) StdoutLine: {'line': b'[ 43%] Built target robdep_interfaces__rosidl_typesupport_c\n'}
+[1.708960] (robdep_interfaces) StdoutLine: {'line': b'[ 53%] Built target robdep_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.710375] (robdep_interfaces) StdoutLine: {'line': b'[ 64%] Built target robdep_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.716115] (-) TimerEvent: {}
+[1.717173] (robdep_interfaces) StdoutLine: {'line': b'[ 74%] Built target robdep_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.718148] (robdep_interfaces) StdoutLine: {'line': b'[ 74%] Built target robdep_interfaces\n'}
+[1.718568] (robdep_interfaces) StdoutLine: {'line': b'[ 76%] Built target robdep_interfaces__py\n'}
+[1.718979] (robdep_interfaces) StdoutLine: {'line': b'[ 84%] Built target robdep_interfaces__python\n'}
+[1.722270] (robdep_interfaces) StdoutLine: {'line': b'[ 89%] Built target robdep_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.724763] (robdep_interfaces) StdoutLine: {'line': b'[100%] Built target robdep_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.725620] (robdep_interfaces) StdoutLine: {'line': b'[100%] Built target robdep_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.726765] (robdep_interfaces) CommandEnded: {'returncode': 0}
+[1.728530] (robdep_project_interfaces) JobProgress: {'identifier': 'robdep_project_interfaces', 'progress': 'cmake'}
+[1.731262] (robdep_project_interfaces) JobProgress: {'identifier': 'robdep_project_interfaces', 'progress': 'build'}
+[1.732445] (robdep_project_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/robdep_project_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/robdep_project_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.200 52278 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/robdep_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('CYCLONEDDS_URI', '/etc/cyclonedds_rpi.xml'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/home/ubuntu/ros2_ws/install/robdep_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/robdep_project_interfaces'), ('SSH_CONNECTION', '192.168.0.200 52278 192.168.0.49 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('COUNTRY', 'CA'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/opt/ros/galactic')]), 'shell': False}
+[1.816325] (-) TimerEvent: {}
+[1.919992] (robdep_project_interfaces) CommandEnded: {'returncode': 0}
+[1.926204] (-) TimerEvent: {}
+[2.025536] (robdep_project_interfaces) JobProgress: {'identifier': 'robdep_project_interfaces', 'progress': 'install'}
+[2.026485] (-) TimerEvent: {}
+[2.067120] (robdep_project_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/robdep_project_interfaces'], 'cwd': '/home/ubuntu/ros2_ws/build/robdep_project_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.200 52278 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/robdep_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('CYCLONEDDS_URI', '/etc/cyclonedds_rpi.xml'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/home/ubuntu/ros2_ws/install/robdep_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/robdep_project_interfaces'), ('SSH_CONNECTION', '192.168.0.200 52278 192.168.0.49 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('COUNTRY', 'CA'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/opt/ros/galactic')]), 'shell': False}
+[2.086659] (robdep_interfaces) JobProgress: {'identifier': 'robdep_interfaces', 'progress': 'install'}
+[2.088481] (robdep_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/robdep_interfaces'], 'cwd': '/home/ubuntu/ros2_ws/build/robdep_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.200 52278 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/robdep_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('CYCLONEDDS_URI', '/etc/cyclonedds_rpi.xml'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/home/ubuntu/ros2_ws/install/robdep_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/robdep_interfaces'), ('SSH_CONNECTION', '192.168.0.200 52278 192.168.0.49 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('COUNTRY', 'CA'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/opt/ros/galactic')]), 'shell': False}
+[2.115981] (robdep_project_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.117773] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/ament_index/resource_index/package_run_dependencies/robdep_project_interfaces\n'}
+[2.118811] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/ament_index/resource_index/parent_prefix_path/robdep_project_interfaces\n'}
+[2.120118] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/environment/ament_prefix_path.sh\n'}
+[2.122813] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.124648] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/environment/path.sh\n'}
+[2.125319] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/environment/path.dsv\n'}
+[2.126717] (-) TimerEvent: {}
+[2.127844] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/local_setup.bash\n'}
+[2.128730] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/local_setup.sh\n'}
+[2.129438] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/local_setup.zsh\n'}
+[2.130418] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/local_setup.dsv\n'}
+[2.132321] (robdep_project_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/package.dsv\n'}
+[2.133649] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/ament_index/resource_index/packages/robdep_project_interfaces\n'}
+[2.135011] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/cmake/robdep_project_interfacesConfig.cmake\n'}
+[2.136507] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/cmake/robdep_project_interfacesConfig-version.cmake\n'}
+[2.140380] (robdep_project_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_project_interfaces/share/robdep_project_interfaces/package.xml\n'}
+[2.144950] (robdep_project_interfaces) CommandEnded: {'returncode': 0}
+[2.147451] (robdep_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.148628] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/ament_index/resource_index/rosidl_interfaces/robdep_interfaces\n'}
+[2.150024] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces\n'}
+[2.150946] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg\n'}
+[2.152190] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/blob_data.h\n'}
+[2.158210] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail\n'}
+[2.158854] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__struct.h\n'}
+[2.159668] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__functions.h\n'}
+[2.160336] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__struct.h\n'}
+[2.160944] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__functions.c\n'}
+[2.161708] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__functions.h\n'}
+[2.162349] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__type_support.h\n'}
+[2.163286] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__functions.c\n'}
+[2.169181] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__type_support.h\n'}
+[2.169791] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/blob_list.h\n'}
+[2.170182] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.170700] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/environment/library_path.sh\n'}
+[2.179329] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/environment/library_path.dsv\n'}
+[2.180090] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/librobdep_interfaces__rosidl_generator_c.so\n'}
+[2.180524] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces\n'}
+[2.181768] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg\n'}
+[2.182602] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.183310] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail\n'}
+[2.184174] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__rosidl_typesupport_fastrtps_c.h\n'}
+[2.185206] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.186180] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/librobdep_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.186807] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces\n'}
+[2.188150] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg\n'}
+[2.193229] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.194288] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail\n'}
+[2.195027] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/dds_fastrtps\n'}
+[2.199053] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.199955] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.200700] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/librobdep_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.201468] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces\n'}
+[2.202226] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg\n'}
+[2.202775] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail\n'}
+[2.204247] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__type_support.c\n'}
+[2.205210] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__rosidl_typesupport_introspection_c.h\n'}
+[2.205763] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__type_support.c\n'}
+[2.206317] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__rosidl_typesupport_introspection_c.h\n'}
+[2.207191] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.207965] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/librobdep_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.208658] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/librobdep_interfaces__rosidl_typesupport_c.so\n'}
+[2.209282] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces\n'}
+[2.209844] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg\n'}
+[2.219451] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/blob_data.hpp\n'}
+[2.220542] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail\n'}
+[2.222152] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__struct.hpp\n'}
+[2.222759] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__struct.hpp\n'}
+[2.223345] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__builder.hpp\n'}
+[2.224178] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__builder.hpp\n'}
+[2.226297] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__traits.hpp\n'}
+[2.226937] (-) TimerEvent: {}
+[2.228065] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__traits.hpp\n'}
+[2.229483] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/blob_list.hpp\n'}
+[2.230576] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces\n'}
+[2.231181] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg\n'}
+[2.232299] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail\n'}
+[2.233707] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.235113] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_data__type_support.cpp\n'}
+[2.235865] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__type_support.cpp\n'}
+[2.236600] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/include/robdep_interfaces/msg/detail/blob_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.238584] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/librobdep_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.240252] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/librobdep_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.243271] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/environment/pythonpath.sh\n'}
+[2.255647] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/environment/pythonpath.dsv\n'}
+[2.258606] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/__init__.py\n'}
+[2.327260] (-) TimerEvent: {}
+[2.366244] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/msg\n'}
+[2.367680] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/msg/_blob_list_s.c\n'}
+[2.368904] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/msg/_blob_data_s.c\n'}
+[2.369515] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/msg/_blob_list.py\n'}
+[2.369917] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/msg/__init__.py\n'}
+[2.370281] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/msg/_blob_data.py\n'}
+[2.370650] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/robdep_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.373022] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/robdep_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.375996] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages/robdep_interfaces/robdep_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.378462] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/lib/librobdep_interfaces__python.so\n'}
+[2.379867] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/msg/BlobData.idl\n'}
+[2.382030] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/msg/BlobList.idl\n'}
+[2.382749] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/msg/BlobData.msg\n'}
+[2.383600] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/msg/BlobList.msg\n'}
+[2.384983] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/ament_index/resource_index/package_run_dependencies/robdep_interfaces\n'}
+[2.387019] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/ament_index/resource_index/parent_prefix_path/robdep_interfaces\n'}
+[2.387967] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/environment/ament_prefix_path.sh\n'}
+[2.389370] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.401096] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/environment/path.sh\n'}
+[2.401917] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/environment/path.dsv\n'}
+[2.402663] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/local_setup.bash\n'}
+[2.403621] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/local_setup.sh\n'}
+[2.410236] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/local_setup.zsh\n'}
+[2.410875] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/local_setup.dsv\n'}
+[2.411495] (robdep_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/package.dsv\n'}
+[2.422222] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/ament_index/resource_index/packages/robdep_interfaces\n'}
+[2.423635] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.424186] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.425017] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.425578] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.426111] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.426610] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.427115] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.427629] (-) TimerEvent: {}
+[2.428741] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.429329] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.429970] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.430442] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.430873] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.431299] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.431889] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.432423] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.440376] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.441378] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.442498] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.443237] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfacesConfig.cmake\n'}
+[2.444641] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/cmake/robdep_interfacesConfig-version.cmake\n'}
+[2.445304] (robdep_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/robdep_interfaces/share/robdep_interfaces/package.xml\n'}
+[2.473812] (robdep_project_interfaces) JobEnded: {'identifier': 'robdep_project_interfaces', 'rc': 0}
+[2.488409] (robdep_interfaces) CommandEnded: {'returncode': 0}
+[2.528257] (-) TimerEvent: {}
+[2.629040] (-) TimerEvent: {}
+[2.729981] (-) TimerEvent: {}
+[2.831072] (-) TimerEvent: {}
+[2.932268] (-) TimerEvent: {}
+[2.991422] (robdep_interfaces) JobEnded: {'identifier': 'robdep_interfaces', 'rc': 0}
+[3.003661] (robdep) JobStarted: {'identifier': 'robdep'}
+[3.033046] (-) TimerEvent: {}
+[3.133836] (-) TimerEvent: {}
+[3.234839] (-) TimerEvent: {}
+[3.335919] (-) TimerEvent: {}
+[3.436702] (-) TimerEvent: {}
+[3.537538] (-) TimerEvent: {}
+[3.638305] (-) TimerEvent: {}
+[3.739478] (-) TimerEvent: {}
+[3.840314] (-) TimerEvent: {}
+[3.940949] (-) TimerEvent: {}
+[4.041602] (-) TimerEvent: {}
+[4.142221] (-) TimerEvent: {}
+[4.242857] (-) TimerEvent: {}
+[4.343586] (-) TimerEvent: {}
+[4.444711] (-) TimerEvent: {}
+[4.518777] (robdep_project) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robdep_project', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/robdep_project/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/robdep_project/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/robdep_project', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.200 52278 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/robdep_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/home/ubuntu/ros2_ws/install/robdep_interfaces:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_ws/build/robdep_project', 'SSH_CONNECTION': '192.168.0.200 52278 192.168.0.49 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/robdep_project/prefix_override:/home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'COUNTRY': 'CA', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_interfaces'}, 'shell': False}
+[4.545267] (-) TimerEvent: {}
+[4.647362] (-) TimerEvent: {}
+[4.749015] (-) TimerEvent: {}
+[4.849803] (-) TimerEvent: {}
+[4.952225] (-) TimerEvent: {}
+[5.053469] (-) TimerEvent: {}
+[5.154292] (-) TimerEvent: {}
+[5.255047] (-) TimerEvent: {}
+[5.355750] (-) TimerEvent: {}
+[5.456438] (-) TimerEvent: {}
+[5.557183] (-) TimerEvent: {}
+[5.657884] (-) TimerEvent: {}
+[5.758576] (-) TimerEvent: {}
+[5.790570] (robdep_project) StdoutLine: {'line': b'running egg_info\n'}
+[5.793140] (robdep_project) StdoutLine: {'line': b'writing ../../build/robdep_project/robdep_project.egg-info/PKG-INFO\n'}
+[5.794204] (robdep_project) StdoutLine: {'line': b'writing dependency_links to ../../build/robdep_project/robdep_project.egg-info/dependency_links.txt\n'}
+[5.795229] (robdep_project) StdoutLine: {'line': b'writing entry points to ../../build/robdep_project/robdep_project.egg-info/entry_points.txt\n'}
+[5.796039] (robdep_project) StdoutLine: {'line': b'writing requirements to ../../build/robdep_project/robdep_project.egg-info/requires.txt\n'}
+[5.796753] (robdep_project) StdoutLine: {'line': b'writing top-level names to ../../build/robdep_project/robdep_project.egg-info/top_level.txt\n'}
+[5.858764] (-) TimerEvent: {}
+[5.937495] (robdep_project) StdoutLine: {'line': b"reading manifest file '../../build/robdep_project/robdep_project.egg-info/SOURCES.txt'\n"}
+[5.941500] (robdep_project) StdoutLine: {'line': b"writing manifest file '../../build/robdep_project/robdep_project.egg-info/SOURCES.txt'\n"}
+[5.942403] (robdep_project) StdoutLine: {'line': b'running build\n'}
+[5.942957] (robdep_project) StdoutLine: {'line': b'running build_py\n'}
+[5.943642] (robdep_project) StdoutLine: {'line': b'copying robdep_project/custom_object_detection_node.py -> /home/ubuntu/ros2_ws/build/robdep_project/build/lib/robdep_project\n'}
+[5.945171] (robdep_project) StdoutLine: {'line': b'running install\n'}
+[5.949132] (robdep_project) StdoutLine: {'line': b'running install_lib\n'}
+[5.953517] (robdep_project) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/robdep_project/build/lib/robdep_project/custom_object_detection_node.py -> /home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages/robdep_project\n'}
+[5.957589] (robdep_project) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages/robdep_project/custom_object_detection_node.py to custom_object_detection_node.cpython-38.pyc\n'}
+[5.958897] (-) TimerEvent: {}
+[5.960687] (robdep_project) StdoutLine: {'line': b'running install_data\n'}
+[5.963231] (robdep_project) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.970291] (robdep_project) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages/robdep_project-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.971893] (robdep_project) StdoutLine: {'line': b'Copying ../../build/robdep_project/robdep_project.egg-info to /home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages/robdep_project-0.0.0-py3.8.egg-info\n'}
+[5.977698] (robdep_project) StdoutLine: {'line': b'running install_scripts\n'}
+[6.050032] (robdep_project) StdoutLine: {'line': b'Installing custom_object_detection_node script to /home/ubuntu/ros2_ws/install/robdep_project/lib/robdep_project\n'}
+[6.051163] (robdep_project) StdoutLine: {'line': b'Installing depth_extraction_node script to /home/ubuntu/ros2_ws/install/robdep_project/lib/robdep_project\n'}
+[6.052232] (robdep_project) StdoutLine: {'line': b'Installing detections script to /home/ubuntu/ros2_ws/install/robdep_project/lib/robdep_project\n'}
+[6.054769] (robdep_project) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/robdep_project/install.log'\n"}
+[6.059237] (-) TimerEvent: {}
+[6.160433] (-) TimerEvent: {}
+[6.174229] (robdep_project) CommandEnded: {'returncode': 0}
+[6.222245] (robdep_project) JobEnded: {'identifier': 'robdep_project', 'rc': 0}
+[6.260594] (-) TimerEvent: {}
+[6.361364] (-) TimerEvent: {}
+[6.419057] (robdep) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robdep', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/robdep/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/robdep/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/robdep', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.200 52278 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/robdep_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/robdep_project_interfaces:/home/ubuntu/ros2_ws/install/robdep_project:/home/ubuntu/ros2_ws/install/robdep:/home/ubuntu/ros2_ws/install/robdep_interfaces:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_ws/build/robdep', 'SSH_CONNECTION': '192.168.0.200 52278 192.168.0.49 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/robdep/prefix_override:/home/ubuntu/ros2_ws/install/robdep/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep_interfaces/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep_project/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/robdep/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'COUNTRY': 'CA', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/robdep_interfaces:/home/ubuntu/ros2_ws/install/robdep_project_interfaces'}, 'shell': False}
+[6.461572] (-) TimerEvent: {}
+[6.562409] (-) TimerEvent: {}
+[6.663083] (-) TimerEvent: {}
+[6.763804] (-) TimerEvent: {}
+[6.864394] (-) TimerEvent: {}
+[6.965025] (-) TimerEvent: {}
+[7.065657] (-) TimerEvent: {}
+[7.166254] (-) TimerEvent: {}
+[7.266869] (-) TimerEvent: {}
+[7.367507] (-) TimerEvent: {}
+[7.468158] (-) TimerEvent: {}
+[7.544848] (robdep) StdoutLine: {'line': b'running egg_info\n'}
+[7.549009] (robdep) StdoutLine: {'line': b'writing ../../build/robdep/robdep.egg-info/PKG-INFO\n'}
+[7.549914] (robdep) StdoutLine: {'line': b'writing dependency_links to ../../build/robdep/robdep.egg-info/dependency_links.txt\n'}
+[7.550433] (robdep) StdoutLine: {'line': b'writing entry points to ../../build/robdep/robdep.egg-info/entry_points.txt\n'}
+[7.550886] (robdep) StdoutLine: {'line': b'writing requirements to ../../build/robdep/robdep.egg-info/requires.txt\n'}
+[7.551512] (robdep) StdoutLine: {'line': b'writing top-level names to ../../build/robdep/robdep.egg-info/top_level.txt\n'}
+[7.568318] (-) TimerEvent: {}
+[7.668978] (-) TimerEvent: {}
+[7.681873] (robdep) StdoutLine: {'line': b"reading manifest file '../../build/robdep/robdep.egg-info/SOURCES.txt'\n"}
+[7.685454] (robdep) StdoutLine: {'line': b"writing manifest file '../../build/robdep/robdep.egg-info/SOURCES.txt'\n"}
+[7.686209] (robdep) StdoutLine: {'line': b'running build\n'}
+[7.687340] (robdep) StdoutLine: {'line': b'running build_py\n'}
+[7.689272] (robdep) StdoutLine: {'line': b'running install\n'}
+[7.692164] (robdep) StdoutLine: {'line': b'running install_lib\n'}
+[7.699103] (robdep) StdoutLine: {'line': b'running install_data\n'}
+[7.701381] (robdep) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.707187] (robdep) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/robdep/lib/python3.8/site-packages/robdep-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.708538] (robdep) StdoutLine: {'line': b'Copying ../../build/robdep/robdep.egg-info to /home/ubuntu/ros2_ws/install/robdep/lib/python3.8/site-packages/robdep-0.0.0-py3.8.egg-info\n'}
+[7.712638] (robdep) StdoutLine: {'line': b'running install_scripts\n'}
+[7.769134] (-) TimerEvent: {}
+[7.775175] (robdep) StdoutLine: {'line': b'Installing blob_detector script to /home/ubuntu/ros2_ws/install/robdep/lib/robdep\n'}
+[7.775974] (robdep) StdoutLine: {'line': b'Installing blob_printer script to /home/ubuntu/ros2_ws/install/robdep/lib/robdep\n'}
+[7.776686] (robdep) StdoutLine: {'line': b'Installing blob_runner script to /home/ubuntu/ros2_ws/install/robdep/lib/robdep\n'}
+[7.777403] (robdep) StdoutLine: {'line': b'Installing bot_run script to /home/ubuntu/ros2_ws/install/robdep/lib/robdep\n'}
+[7.778114] (robdep) StdoutLine: {'line': b'Installing get_images script to /home/ubuntu/ros2_ws/install/robdep/lib/robdep\n'}
+[7.778829] (robdep) StdoutLine: {'line': b'Installing mask_publisher script to /home/ubuntu/ros2_ws/install/robdep/lib/robdep\n'}
+[7.781000] (robdep) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/robdep/install.log'\n"}
+[7.869378] (-) TimerEvent: {}
+[7.876821] (robdep) CommandEnded: {'returncode': 0}
+[7.921413] (robdep) JobEnded: {'identifier': 'robdep', 'rc': 0}
+[7.925015] (-) EventReactorShutdown: {}
